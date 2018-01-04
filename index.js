@@ -26,6 +26,7 @@ function deepestChild(){
   }
   var b = deepChild.length - 1;
   console.log(deepChild[b]);
+  console.log(deepChild[b].innerHTML);
 
  }
      
