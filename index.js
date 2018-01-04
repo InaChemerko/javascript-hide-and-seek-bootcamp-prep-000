@@ -22,7 +22,10 @@ function deepestChild(){
   for (var i = 0; i<deepChild.length; i++){
     console.log('hello');
     console.log(deepChild[i]);
+    
   }
+  var b = deepChild.length - 1;
+  console.log(deepChild[b]);
 
  }
      
