@@ -19,13 +19,15 @@ function deepestChild(){
   console.log(current);
   var deepChild = current.querySelectorAll('*');
   console.log(deepChild);
-   for (var i = 0; i< deepChild.querySelectorAll('*').length; i++) {
-     console.log(deepChild.querySelectorAll('*').children[i]);
+ var b = 0;
+ while(deepChild){
+   b++;
+ }
      
     /*if (deepChild.querySelectorAll('*')[i].childElementCount === 0) {
       return deepChild.querySelectorAll('*')[i];*/
       
-   }
+   console.log(b);
   }
  
     /*a(child);
