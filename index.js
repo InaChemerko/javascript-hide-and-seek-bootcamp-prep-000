@@ -21,6 +21,7 @@ function deepestChild(){
   console.log(deepChild);
   for (var i = 0; i<deepChild.length; i++){
     console.log('hello');
+    console.log(deepChild[i]);
   }
 
  }
