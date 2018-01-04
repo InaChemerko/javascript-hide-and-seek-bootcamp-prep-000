@@ -22,7 +22,6 @@ function deepestChild(){
       return deepChild.querySelectorAll('*')[i];
       }
    }
-  
   }
  
     /*a(child);
