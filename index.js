@@ -21,13 +21,13 @@ function deepestChild(){
       var deepChild = current.children[0];
       console.log (deepChild);
    }
-    current = current.children[0];
-    console.log(current);
+    current = current.children[0][0];
+    if (current === null) {
+      return deepChild;
     }
-  console.log(current.innerHTML);
- return deepChild.innerHTML;
-  
-}
+   
+    }
+  }
  
     /*a(child);
    
