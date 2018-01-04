@@ -18,7 +18,9 @@ function deepestChild(){
   var current = document.querySelector('#grand-node');
   var deepChild = current.querySelectorAll('*');
    for (var i = 0; i< deepChild.length; i++) {
-     deepChild = 
+    if (deepChild.querySelectorAll('*')[i]. === 0) {
+      
+    }
    }
   while (current) {
     if (current.children[0]) {
