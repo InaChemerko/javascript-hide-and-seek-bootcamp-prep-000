@@ -20,20 +20,9 @@ function deepestChild(){
    for (var i = 0; i< deepChild.length; i++) {
     if (deepChild.querySelectorAll('*')[i].childElementCount === 0) {
       return deepChild.querySelectorAll('*')[i];
-      
-    }
+      }
    }
-  while (current) {
-    if (current.children[0]) {
-      var deepChild = current.children[0];
-      console.log (deepChild);
-   }
-    current = current.children[0][0];
-    if (current === null) {
-      return deepChild.innerHTML;
-    }
-   
-    }
+  
   }
  
     /*a(child);
