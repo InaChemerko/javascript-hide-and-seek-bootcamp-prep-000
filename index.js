@@ -19,7 +19,10 @@ function deepestChild(){
   console.log(current);
   var deepChild = current.querySelectorAll('*');
   console.log(deepChild);
- console.log(deepChild.hasChildNodes());
+  for (var i = 0; i<deepChild.length; i++){
+    console.log('hello');
+  }
+
  }
      
     /*if (deepChild.querySelectorAll('*')[i].childElementCount === 0) {
