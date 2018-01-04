@@ -23,7 +23,7 @@ function deepestChild(){
    }
     current = current.children[0][0];
     if (current === null) {
-      return deepChild;
+      return deepChild.innerHTML;
     }
    
     }
